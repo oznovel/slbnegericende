@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>SB Admin 2 - Dashboard</title>
+        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="css/sb-admin-2.css" rel="stylesheet" />
+        <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/bootstrap-select.css" />
+        <script src="js/bootstrap-select.js"></script>
+    </head>
+    <body id="page-top">
+        <div id="wrapper">
+            <div id="content-wrapper" class="d-flex flex-column">
+                <div id="content">
+                    <nav class="navbar navbar-expand navbar-light navbar-blur topbar mb-4 fixed-top shadow-sm">
+                        <a class="navbar-brand text-primary" href="#"> SLB <b>NEGERI C ENDE</b> </a>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link small text-primary" href="#">Profil</a></li>
+                            <li class="nav-item"><a class="nav-link small text-primary" href="#">Pengajar</a></li>
+                            <li class="nav-item"><a class="nav-link small text-primary" href="#">Kegiatan</a></li>
+                            <li class="nav-item"><a class="nav-link small text-primary" href="#">Galeri</a></li>
+                            <li class="nav-item"><a class="nav-link small text-primary" href="#">Kontak</a></li>
+                            <div class="topbar-divider d-none d-sm-block"></div>
+                            <li class="nav-item dropdown no-arrow">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="mr-2 d-none d-lg-inline text-primary small">Login</span> <img class="img-profile rounded-circle" src="img/undraw_profile.svg" />
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right animated--grow-in" aria-labelledby="userDropdown">
+                                    <a class="dropdown-item" href="#"> <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile </a>
+                                    <a class="dropdown-item" href="#"> <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> Settings </a>
+                                    <a class="dropdown-item" href="#"> <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i> Activity Log </a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"> <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <div class="container-fluid">
+                        <div class="jumbotron shadow-sm bg-warning-smooth text-white">
+                            <img class="img-fluid" src="img/sekolah.svg" />
+                            <h3 class="display-3 text-center"><b>SLB NEGERI C ENDE</b></h3>
+                            <hr class="my-4" />
+                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                            <p class="lead"><a class="btn btn-primary btn-left btn-lg" href="#" role="button">Learn more</a></p>
+                        </div>
+                    </div>
+
+
+                    <div class="container-md">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-xl-3 col-lg-5">
+                                <div class="card shadow-sm mb-4">
+                                    <div class="card-body"><img class="img-fluid" src="img/tutwuri.svg" /></div>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 col-lg-7">
+                                <div class="card shadow-sm mb-4">
+                                    <div class="card-body">
+                                        <h1><b>Sekolah</b></h1>
+                                        <p class="text-dark">
+                                            Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility
+                                            classes.
+                                        </p>
+                                        <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-12 mb-4">
+                                <div class="card shadow-sm mb-4">
+                                    <div class="card-body">
+                                        <div class="text-center"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/undraw_posting_photo.svg" alt="..." /></div>
+                                        <p>
+                                            Add some quality, svg illustrations to your project courtesy of <a target="_blank" rel="nofollow" href="https://undraw.co/">unDraw</a>, a constantly updated collection of beautiful svg images that
+                                            you can use completely free and without attribution!
+                                        </p>
+                                        <a target="_blank" rel="nofollow" href="https://undraw.co/">Browse Illustrations on unDraw &rarr;</a>
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                    <div class="card-body">
+                                        <h1><b>Sekolah luar biasa adalah sekolah yang</b></h1>
+                                        <p class="text-dark">
+                                            Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility
+                                            classes.
+                                        </p>
+                                        <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-primary mb-4">
+                                    <div class="card-body text-white">
+                                        <h1><b>Sekolah luar biasa adalah sekolah yang</b></h1>
+                                        <p class="mb-0">
+                                            Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility
+                                            classes.
+                                        </p>
+                                        <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-success mb-4">
+                                    <div class="card-body text-white">
+                                        <h1><b>Sekolah luar biasa adalah sekolah yang</b></h1>
+                                        <p class="mb-0">
+                                            Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility
+                                            classes.
+                                        </p>
+                                        <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-xl-3 col-lg-7">
+                                <div class="card shadow-sm mb-4">
+                                    <div class="card-body">
+                                        <h1><b>Sekolah luar biasa adalah sekolah yang</b></h1>
+                                        <p class="text-dark">
+                                            Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility
+                                            classes.
+                                        </p>
+                                        <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-9 col-lg-7">
+                                <div class="card shadow-sm mb-4">
+                                    <div class="card-body">
+                                        <h1><b>Sekolah luar biasa adalah sekolah yang</b></h1>
+                                        <p class="text-dark">
+                                            Admin 2 makes extensive use of Bootstrap 4 utility classes in order to reduce CSS bloat and poor page performance. Custom CSS classes are used to create custom components and custom utility
+                                            classes.
+                                        </p>
+                                        <p class="mb-0">Before working with this theme, you should become familiar with the Bootstrap framework, especially the utility classes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <h3 class="text-center py-3">Tambah Data</h3>
+                        <div class="row">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2"><span class="badge badge-pill shadow-sm bg-success border">&nbsp;</span></h5>
+                                <div class="row h-50">
+                                    <div class="col border-right border-success">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div class="float-right">Tue, Jan 10th 2019 8:30 AM</div>
+                                        <h4 class="card-title">Day 2 Sessions</h4>
+                                        <p class="card-text">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                                        <form>
+                                            <div class="form-group row">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                                <div class="col-sm-10"><input type="text" class="form-control" id="staticEmail" value="email@example.com" /></div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                                <div class="col-sm-10"><input type="password" class="form-control" id="inputPassword" placeholder="Password" /></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col border-right border-success">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2"><span class="badge badge-pill shadow-sm bg-success border">&nbsp;</span></h5>
+                                <div class="row h-50">
+                                    <div class="col">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div class="float-right text-muted">Wed, Jan 11th 2019 8:30 AM</div>
+                                        <h4 class="card-title">Day 3 Sessions</h4>
+                                        <div class="my-2"></div>
+                                        <a href="#" class="btn btn-success btn-icon-split">
+                                            <span class="icon"> <i class="fas fa-plus"></i> </span> <span class="text">Simpan</span>
+                                        </a>
+                                        <a href="#" class="btn btn-danger btn-icon-split">
+                                            <span class="icon"> <i class="fas fa-times"></i> </span> <span class="text">Batal</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <h3 class="text-center py-3">Edit Data</h3>
+                        <div class="row">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2"><span class="badge badge-pill shadow-sm bg-success border">&nbsp;</span></h5>
+                                <div class="row h-50">
+                                    <div class="col border-right border-success">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div class="float-right">Tue, Jan 10th 2019 8:30 AM</div>
+                                        <h4 class="card-title">Day 2 Sessions</h4>
+                                        <p class="card-text">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                                        <form>
+                                            <div class="form-group row">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                                <div class="col-sm-10"><input type="text" class="form-control" id="staticEmail" value="email@example.com" /></div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                                <div class="col-sm-10"><input type="password" class="form-control" id="inputPassword" placeholder="Password" /></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col border-right border-success">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2"><span class="badge badge-pill shadow-sm bg-success border">&nbsp;</span></h5>
+                                <div class="row h-50">
+                                    <div class="col">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div class="float-right text-muted">Wed, Jan 11th 2019 8:30 AM</div>
+                                        <h4 class="card-title">Day 3 Sessions</h4>
+                                        <div class="my-2"></div>
+                                        <a href="#" class="btn btn-success btn-icon-split">
+                                            <span class="icon"> <i class="fas fa-plus"></i> </span> <span class="text">Simpan</span>
+                                        </a>
+                                        <a href="#" class="btn btn-danger btn-icon-split">
+                                            <span class="icon"> <i class="fas fa-times"></i> </span> <span class="text">Batal</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+                        <h3 class="text-center py-3">Tampil Data</h3>
+                        <div class="row">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2"><span class="badge badge-pill shadow-sm bg-success border">&nbsp;</span></h5>
+                                <div class="row h-50">
+                                    <div class="col border-right border-success">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card shadow-sm">
+                                    <div class="card-body">
+                                        <div class="float-right">Tue, Jan 10th 2019 8:30 AM</div>
+                                        <h4 class="card-title">Day 2 Sessions</h4>
+                                        <p class="card-text">Sign-up for the lessons and speakers that coincide with your course syllabus. Meet and greet with instructors.</p>
+                                        <div class="my-2"></div>
+                                        <a href="#" class="btn btn-success btn-icon-split">
+                                            <span class="icon"> <i class="fas fa-plus"></i> </span> <span class="text">Tambah Data</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-auto text-center flex-column d-none d-sm-flex">
+                                <div class="row h-50">
+                                    <div class="col border-right border-success">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                                <h5 class="m-2"><span class="badge badge-pill shadow-sm bg-success border">&nbsp;</span></h5>
+                                <div class="row h-50">
+                                    <div class="col">&nbsp;</div>
+                                    <div class="col">&nbsp;</div>
+                                </div>
+                            </div>
+                            <div class="col py-2">
+                                <div class="card shadow-sm mb-4">
+                                    <div class="card-body">
+                                        <div class="float-right text-muted">Wed, Jan 11th 2019 8:30 AM</div>
+                                        <h4 class="card-title">Day 3 Sessions</h4>
+                                        <p>
+                                            Shoreditch vegan artisan Helvetica. Tattooed Codeply Echo Park Godard kogi, next level irony ennui twee squid fap selvage. Meggings flannel Brooklyn literally small batch, mumblecore PBR try-hard
+                                            kale chips. Brooklyn vinyl lumbersexual bicycle rights, viral fap cronut leggings squid chillwave pickled gentrify mustache. 3 wolf moon hashtag church-key Odd Future. Austin messenger bag
+                                            normcore, Helvetica Williamsburg sartorial tote bag distillery Portland before they sold out gastropub taxidermy Vice.
+                                        </p>
+
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <th>Position</th>
+                                                        <th>Office</th>
+                                                        <th>Age</th>
+                                                        <th>Start date</th>
+                                                        <th>Salary</th>
+                                                    </tr>
+                                                </thead>
+                                                <tfoot>
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <th>Position</th>
+                                                        <th>Office</th>
+                                                        <th>Age</th>
+                                                        <th>Start date</th>
+                                                        <th>Salary</th>
+                                                    </tr>
+                                                </tfoot>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Tiger Nixon</td>
+                                                        <td>System Architect</td>
+                                                        <td>Edinburgh</td>
+                                                        <td>61</td>
+                                                        <td>2011/04/25</td>
+                                                        <td>$320,800</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Garrett Winters</td>
+                                                        <td>Accountant</td>
+                                                        <td>Tokyo</td>
+                                                        <td>63</td>
+                                                        <td>2011/07/25</td>
+                                                        <td>$170,750</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Ashton Cox</td>
+                                                        <td>Junior Technical Author</td>
+                                                        <td>San Francisco</td>
+                                                        <td>66</td>
+                                                        <td>2009/01/12</td>
+                                                        <td>$86,000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Cedric Kelly</td>
+                                                        <td>Senior Javascript Developer</td>
+                                                        <td>Edinburgh</td>
+                                                        <td>22</td>
+                                                        <td>2012/03/29</td>
+                                                        <td>$433,060</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Airi Satou</td>
+                                                        <td>Accountant</td>
+                                                        <td>Tokyo</td>
+                                                        <td>33</td>
+                                                        <td>2008/11/28</td>
+                                                        <td>$162,700</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Brielle Williamson</td>
+                                                        <td>Integration Specialist</td>
+                                                        <td>New York</td>
+                                                        <td>61</td>
+                                                        <td>2012/12/02</td>
+                                                        <td>$372,000</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center my-auto"><span>Copyright &copy; Your Website 2021</span></div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <a class="scroll-to-top rounded" href="#page-top"> <i class="fas fa-angle-up"></i> </a>
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                    <div class="modal-footer"><button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button> <a class="btn btn-primary" href="login.html">Logout</a></div>
+                </div>
+            </div>
+        </div>
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="js/sb-admin-2.min.js"></script>
+        <script src="vendor/chart.js/Chart.min.js"></script>
+        <script src="js/demo/chart-area-demo.js"></script>
+        <script src="js/demo/chart-pie-demo.js"></script>
+        <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+        <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+        <script src="js/demo/datatables-demo.js"></script>
+    </body>
+</html>
